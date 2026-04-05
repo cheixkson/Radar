@@ -7,4 +7,5 @@ def mix_signals(tx, rx):
     return tx * rx
 
 def compute_fft(signal):
-    return np.fft.fft(signal)
+    #return np.fft.fft(signal)
+    return np.fft.rfft(signal)
