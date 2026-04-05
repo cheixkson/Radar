@@ -29,6 +29,8 @@ distances = (c * T * freqs) / (2 * B)
 
 # affichage
 plt.plot(distances,np.fft.fftshift(np.abs(fft)))
+plt.xlabel("Distances (m)")
+plt.ylabel("Amplitude")
 plt.title("FFT - détection distance")
 plt.show()
 #plt.plot(tx)
